@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clinicaprivata.MedicController">
+   <children>
+      <TableView fx:id="consultatiiTableView" layoutX="69.0" layoutY="100.0" prefHeight="200.0" prefWidth="462.0">
+        <columns>
+          <TableColumn fx:id="cnpColumn" prefWidth="75.0" text="cnp" />
+          <TableColumn fx:id="numeColumn" prefWidth="155.0" text="nume" />
+            <TableColumn fx:id="dattaColumn" prefWidth="148.0" text="datta" />
+            <TableColumn fx:id="oraColumn" prefWidth="83.0" text="ora" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

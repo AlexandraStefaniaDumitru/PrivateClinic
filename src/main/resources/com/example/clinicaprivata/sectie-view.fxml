@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clinicaprivata.SectieController">
+   <children>
+      <TableView fx:id="sectiiTableView" layoutX="83.0" layoutY="88.0" onMouseClicked="#onSelectedSectie" prefHeight="200.0" prefWidth="434.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="numeColumn" prefWidth="122.0" text="nume" />
+            <TableColumn fx:id="sefColumn" prefWidth="70.0" text="sef" />
+            <TableColumn fx:id="pretColumn" prefWidth="96.0" text="pret" />
+            <TableColumn fx:id="durataColumn" prefWidth="70.0" text="durata" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
